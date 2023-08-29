@@ -16,7 +16,7 @@ composer require whitePottery/pottery
 Создать свой пакет
 
  ```
-   php artisan pottery:make
+   php artisan pot:make
  ```
 следуем инструкциям
 
