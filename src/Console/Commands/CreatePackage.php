@@ -12,7 +12,7 @@ class CreatePackage extends Command
      *
      * @var string
      */
-    protected $signature = 'pot:create {LoginAndPackageName?} {--l|light}';
+    protected $signature = 'pot:make {LoginAndPackageName?} {--l|light}';
 
     /**
      * The console command description.
