@@ -1,0 +1,28 @@
+{
+    "name": "whitepottery/pottery",
+    "description": "Expa",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "whitePottery",
+            "email": "email@email.tmp",
+            "homepage": "https://github.com/whitepottery/pottery"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pottery\\Providers\\PotteryServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Pottery\\": "src"
+        }
+    }
+}
